@@ -1,0 +1,41 @@
+{
+  "name": "prismic-backup",
+  "version": "1.0.0",
+  "description": "A node.js utility class for creating backups of Prismic repositories",
+  "author": "John Mantas",
+  "license": "MIT",
+  "keywords": [
+    "prismic",
+    "backup",
+    "export"
+  ],
+  "homepage": "https://github.com/john-mantas/prismic-backup#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-mantas/prismic-backup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/john-mantas/prismic-backup/issues"
+  },
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --check \"**/*.{js,json,md}\"",
+    "format:fix": "prettier --write \"**/*.{js,json,md}\"",
+    "lint": "eslint",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "@prismicio/client": "^7.16.0",
+    "fs-extra": "^11.3.0",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2"
+  }
+}
